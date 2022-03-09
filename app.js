@@ -7,3 +7,6 @@ const names=(frist,last)=>{
     const fulllName=[frist,last]
     return fulllName
 }
+
+const [frist,last]=names('Masud','Rana')
+console.log(frist,last)
